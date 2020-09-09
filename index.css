@@ -1,0 +1,9 @@
+div,
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image1 {
+    background-image: url(./img/Image1.jpg), rgba(0, 0, 0, 0.3);
+}

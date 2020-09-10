@@ -39,6 +39,8 @@ span {
 .section p {
     width: 700px;
     text-align: center;
+    font-size: 1em;
+    ;
 }
 
 .text2_3 span {
@@ -47,26 +49,16 @@ span {
 
 .section2,
 .section3 {
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     color: white;
 }
 
 .container2 {
     background-image: url(./img/Image2.jpg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    background-position: center;
-    background-size: cover;
+    height: 50vh;
 }
 
 .container3 {
     background-image: url(./img/Image3.jpg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    background-position: center;
-    background-size: cover;
+    height: 50vh;
 }

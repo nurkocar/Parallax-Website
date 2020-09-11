@@ -1,30 +1,35 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.75em;
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
 }
 
 .container1 {
     background-image: url(./img/img1.jpg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     width: auto;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    opacity: 0.7;
+    height: 100vh;
 }
 
 span {
     background-color: #FCEAA7;
     color: #635661;
-    padding: 20px;
+    font-size: 1.75em;
+    text-align: center;
+    padding: 30px;
     border-radius: 10px;
-    font-size: 1.6em;
     letter-spacing: 0.3em;
 }
 
@@ -33,15 +38,20 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    text-align: center;
+    padding: 30px 50px;
 }
 
 .section p {
-    width: 700px;
-    text-align: center;
-    font-size: 1em;
-    line-height: 2em;
+    font-size: 1.3em;
+    line-height: 1.75em;
     letter-spacing: 0.1em;
+}
+
+.text1_4,
+.text2_3 {
+    display: flex;
+    flex-direction: column;
 }
 
 .text2_3 span {
@@ -51,19 +61,22 @@ span {
 .section1 {
     background-color: #FBE2E1;
     color: #726C6C;
-    font-weight: bold;
 }
 
 .container2 {
     background-image: url(./img/img2.jpg);
     height: 50vh;
+    width: auto;
+}
+
+blockquote {
+    font-family: Merriweather, serif;
+    font-size: 1.6em;
+    line-height: 2em;
 }
 
 #blockquote1 {
-    font-family: Merriweather, serif;
     border-left: 2px solid #635661;
-    font-size: 1.5em;
-    line-height: 2.4em;
 }
 
 .section2 {
@@ -74,14 +87,11 @@ span {
 .container3 {
     background-image: url(./img/img3.jpg);
     height: 50vh;
+    width: auto;
 }
 
 #blockquote2 {
-    font-family: Merriweather, serif;
     border-right: 2px solid #635661;
-    font-size: 1.5em;
-    line-height: 2.4em;
-    color: black;
 }
 
 .section3 {
@@ -91,5 +101,22 @@ span {
 
 .container4 {
     background-image: url(./img/img4.jpg);
-    height: 70vh;
+    height: 80vh;
+    width: auto;
+}
+
+@media screen and (max-width:800px) {
+    .text1_4,
+    .text2_3 {
+        font-size: 0.75em;
+        letter-spacing: 0.2em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .text1_4,
+    .text2_3 {
+        font-size: 0.5em;
+        letter-spacing: 0.1em;
+    }
 }

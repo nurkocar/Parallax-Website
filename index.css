@@ -119,4 +119,19 @@ blockquote {
         font-size: 0.5em;
         letter-spacing: 0.1em;
     }
+    /* .container {
+        background-size: 100% auto;
+    } */
+    .section p {
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: 0.1em;
+    }
+    blockquote {
+        font-size: 2em;
+        line-height: 2em;
+    }
+    span {
+        font-size: 2em;
+    }
 }
